@@ -13,6 +13,9 @@ public class TestServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         PrintWriter out = resp.getWriter();
-        out.println("test");
+        out.println("test1");
+        out.println("test2");
+        out.println("test3");
+        out.println("test4");
     }
 }
